@@ -2,6 +2,7 @@
 
 Setting up VBox bridge network and static IPs:
 
+```
     1  cd /etc/sysconfig/network-scripts/
     2  cp ifcfg-enp0s3 ifcfg-enp0s3.bak
     3  vi ifcfg-enp0s3
@@ -24,3 +25,6 @@ Setting up VBox bridge network and static IPs:
    20  systemctl status network
    21  ifconfig
    22  ip addr show
+   ```
+   
+   
