@@ -2,7 +2,6 @@
 
 Setting up VBox bridge network and static IPs:
 
-[root@localhost network-scripts]# history
     1  cd /etc/sysconfig/network-scripts/
     2  cp ifcfg-enp0s3 ifcfg-enp0s3.bak
     3  vi ifcfg-enp0s3
